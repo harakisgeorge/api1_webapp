@@ -1,0 +1,52 @@
+.navbar__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: white;
+  min-height: 90px;
+}
+
+.navbar__navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar__title-button {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--clr-primary-5);
+  list-style: none;
+  display: inline-block;
+  height: 100%;
+  padding: 2rem 1.25rem;
+}
+
+.navbar__list {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar__list li {
+  padding: 2rem 1rem;
+}
+.navbar__input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar__login-button,
+.navbar__search-button {
+  width: 100%;
+  min-height: 50px;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  padding: 2rem 1.25rem;
+}
+
+.navbar__input-box {
+  max-height: 40px;
+}

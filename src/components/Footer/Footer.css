@@ -1,0 +1,9 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+
+  flex-direction: row;
+  max-width: 1268px;
+  background-color: white;
+}
