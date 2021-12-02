@@ -3,7 +3,7 @@ import axios from 'axios';
 import "./NewsContainer.css"
 import NewsItem from "../NewsItem/NewsItem"
 
-function App() {
+const NewsContainer= () => {
   const [data, setData] = useState({ articles: [] });
 
   useEffect(async () => {
@@ -24,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default NewsContainer;

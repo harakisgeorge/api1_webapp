@@ -1,16 +1,20 @@
 import React from 'react'
-import NavBar from './components/NavBar/NavBar';
-import NewsContainer from './components/NewsContainer/NewsContainer';
-import Footer from './components/Footer/Footer';
+import Home from "./components/Home/Home"
+import Sport from "./components/Sport/Sport"
+
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 export const App = () => {
    
    return (
-      <div className="App_container">
-         <NavBar />
-         <NewsContainer />
-         <Footer />
-      </div>
+      <Router>
+         <Routes>
+         <Route path='/' element={<Home/>} />
+         <Route path='/sport' element={<Sport/>} />
+
+         </Routes>
+      </Router>
+      
    )
 }
 

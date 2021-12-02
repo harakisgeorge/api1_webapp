@@ -12,14 +12,22 @@
   flex-direction: row;
   align-items: center;
 }
-.navbar__title-button {
+.navbar__title-button a {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: var(--clr-primary-5);
   list-style: none;
   display: inline-block;
   height: 100%;
   padding: 2rem 1.25rem;
+  font-size: 2rem;
+}
+
+h3.navbar__title-button.sport a {
+  background-color: var(--clr-green-light);
+}
+
+h3.navbar__title-button.celebrity a {
+  background-color: var(--clr-green-light);
 }
 
 .navbar__list {
@@ -27,8 +35,10 @@
   flex-direction: row;
 }
 
-.navbar__list li {
+.navbar__list li a {
   padding: 2rem 1rem;
+  color: black;
+  font-size: 1.45rem;
 }
 .navbar__input {
   display: flex;
@@ -45,8 +55,12 @@
   cursor: pointer;
   outline: none;
   padding: 2rem 1.25rem;
+  color: black;
+  font-size: 1.45rem;
 }
 
 .navbar__input-box {
-  max-height: 40px;
+  height: 35px;
+  color: black;
+  font-size: 1.45rem;
 }

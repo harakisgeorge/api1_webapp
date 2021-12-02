@@ -1,16 +1,17 @@
 import React from 'react'
 import "./NavBar.css"
-export const NavBar = () => {
+ const NavBar = ({category}) => {
+   let title_button;
+   if (category=="Sport") {
+      title_button = <h3 className="navbar__title-button sport"><a href="#" >NNC SPORT</a></h3> ;
+    } else {
+      title_button = <h3 className="navbar__title-button"><a href="#" >NNC</a></h3> ;
+    }
    return (
       <header className="navbar__main">
          
          <div className="navbar__navigation">
-            <h3 className="navbar__title-button">
-               <a href="#" >
-                  
-                     NNC
-               </a>
-            </h3> 
+           {title_button}
             <ul className="navbar__list">
                <li><a href="#">News</a></li>
                <li><a href="#">Sport</a></li>
