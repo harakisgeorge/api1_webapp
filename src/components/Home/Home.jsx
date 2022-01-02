@@ -7,8 +7,8 @@ import Footer from '../../components/Footer/Footer';
 export const Home = () => {
    return (
       <div className="App_container">
-         <NavBar />
-         <NewsContainer />
+         <NavBar category={""}/>
+         <NewsContainer category={"Home"}/>
          <Footer />
       </div>         
    )

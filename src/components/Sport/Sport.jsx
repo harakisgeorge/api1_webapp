@@ -9,7 +9,7 @@ export const Sport = () => {
    return (
       <div className="App_container">
          <NavBar category={"Sport"}/>
-         <NewsContainer />
+         <NewsContainer  category={"Sport"}/>
          <Footer />
       </div>         
    )

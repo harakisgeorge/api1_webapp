@@ -16,7 +16,6 @@
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   list-style: none;
-  display: inline-block;
   height: 100%;
   padding: 2rem 1.25rem;
   font-size: 2rem;
@@ -25,11 +24,17 @@
 h3.navbar__title-button.sport a {
   background-color: var(--clr-green-light);
 }
-
-h3.navbar__title-button.celebrity a {
+h3.navbar__title-button.home a {
   background-color: var(--clr-green-light);
 }
+h3.navbar__title-button.celebrity a {
+  background-color: var(--clr-fuchia-light);
+}
 
+.navbar__title-button-link {
+  display: flex;
+  flex-direction: column;
+}
 .navbar__list {
   display: flex;
   flex-direction: row;
