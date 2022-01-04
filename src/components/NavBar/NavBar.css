@@ -12,22 +12,24 @@
   flex-direction: row;
   align-items: center;
 }
-.navbar__title-button a {
+.navbar__title-button-link.home,
+.navbar__title-button-link.sport,
+.navbar__title-button-link.celebrity {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   list-style: none;
   height: 100%;
-  padding: 2rem 1.25rem;
+  padding: 1.5rem 1.25rem;
   font-size: 2rem;
 }
 
-h3.navbar__title-button.sport a {
+.navbar__title-button-link.sport {
   background-color: var(--clr-green-light);
 }
-h3.navbar__title-button.home a {
-  background-color: var(--clr-green-light);
+.navbar__title-button-link.home {
+  background-color: var(--clr-primary-4);
 }
-h3.navbar__title-button.celebrity a {
+.navbar__title-button-link.celebrity {
   background-color: var(--clr-fuchia-light);
 }
 

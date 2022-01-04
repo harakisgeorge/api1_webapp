@@ -7,12 +7,12 @@ import {BsSearch} from "react-icons/bs";
  const NavBar = ({category}) => {
    let title_button;
    if (category=="Sport") {
-      title_button = <h3 className="navbar__title-button sport"><a href="#" className="navbar__title-button-link"><span>NNC</span> <span>Sport</span></a></h3> ;
+      title_button = <a href="#" className="navbar__title-button-link sport">NNC</a> ;
     } else if (category=="Celebrity") {
-      title_button = <h3 className="navbar__title-button celebrity"><a href="#" className="navbar__title-button-link" ><span>NNC</span> <span>Celebrity</span></a></h3> ;
+      title_button = <a href="#" className="navbar__title-button-link celebrity" >NNC</a> ;
     }
-    else if (category=""){
-      title_button = <h3 className="navbar__title-button home"><a href="#" className="navbar__title-button-link" ><span>NNC</span></a></h3> ;
+    else if (category="Default"){
+      title_button = <a href="#" className="navbar__title-button-link home" >NNC</a> ;
     }
    return (
       <header className="navbar__main">

@@ -25,8 +25,8 @@ const NewsContainer= ({category}) => {
 
   return (
     <div className="newsContainer">
-      {data.articles.map(item => (
-        <NewsItem item={item} />
+      {data.articles.map((item,index) => (
+        <NewsItem item={item} index={index} />
       ))}
     </div>
   );
