@@ -38,18 +38,15 @@ const Slider = () => {
            }
            return index
         })
-     },5000)
+     },2000)
      return () =>{
         clearInterval(slider)
      }
   },[index])
       return (
+
          <section className='section'>
-           <div className='title'>
-             <h2>
-               <span>/</span>reviews
-             </h2>
-           </div>
+         
            <div className='section-center'>
              {latestNews.map((latest, latestIndex) => {
                const { id, title, country, time } = latest
@@ -70,16 +67,17 @@ const Slider = () => {
                    <h4>{title}</h4>
                    <p className='title'>{country}</p>
                    <p className='text'>{time}</p>
-                   <FaQuoteRight className='icon' />
                  </article>
                )
              })}
+          
              <button className='prev' onClick={prevSlide}>
                <FiChevronLeft />
              </button>
              <button className='next' onClick={nextSlide}>
                <FiChevronRight />
              </button>
+             
            </div>
          </section>
        )

@@ -15,6 +15,7 @@ import {BsSearch} from "react-icons/bs";
       title_button = <a href="#" className="navbar__title-button-link home" >NNC</a> ;
     }
    return (
+      <>
       <header className="navbar__main">
          
          <div className="navbar__navigation">
@@ -39,6 +40,8 @@ import {BsSearch} from "react-icons/bs";
             </a>
          </div>
       </header>
+      <div className='line'></div>
+      </>
    )
 }
 

@@ -4,12 +4,10 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: white;
   align-items: center;
-  width: 36rem;
 }
 .newsItem-image {
-  object-fit: fit;
   height: 20rem;
-  max-width: auto;
+  max-width: 20rem;
   min-width: 36rem;
 }
 

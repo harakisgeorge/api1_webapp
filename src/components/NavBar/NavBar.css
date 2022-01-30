@@ -5,6 +5,7 @@
   flex-direction: row;
   background-color: white;
   min-height: 90px;
+  border-bottom: 0 solid rgba(20, 21, 23, 0.15);
 }
 
 .navbar__navigation {
@@ -70,4 +71,11 @@
   height: 35px;
   color: black;
   font-size: 1.45rem;
+}
+
+.line {
+  height: 2px;
+  width: 100%;
+  background: rgba(29, 29, 32, 0.034);
+  margin-bottom: 2px;
 }

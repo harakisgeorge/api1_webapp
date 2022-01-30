@@ -56,7 +56,7 @@
 }
 body {
   font-family: "Sanchez", serif;
-  background-color: var(--clr-grey-10);
+  background-color: var(--clr-grey-9);
   line-height: 1.5;
   font-size: 0.875rem;
 }
