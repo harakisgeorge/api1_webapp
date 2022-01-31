@@ -9,12 +9,12 @@ const NewsContainer= ({category}) => {
     let result;
     if (category=="Sport") {
       result = await axios(
-        'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=0003891541194c679d493ef5b2555558',
+        'https://gnews.io/api/v4/search?q=example&token=4e12bc3284d67cd4801eb18c3586c4c3',
       );
     }
     else {
       result = await axios(
-        'https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=0003891541194c679d493ef5b2555558',
+        'https://gnews.io/api/v4/search?q=example&token=4e12bc3284d67cd4801eb18c3586c4c3',
       );    
     
     }

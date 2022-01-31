@@ -24,7 +24,6 @@ import {BsSearch} from "react-icons/bs";
                <li><Link to="/">News</Link></li>
                <li><Link to="/sport">Sport</Link></li>
                <li><Link to="/celebrity">Celebrity</Link></li>
-               <li><Link to="/sport">Sport</Link></li>
             </ul>
          </div>
          <div className="navbar__input">
